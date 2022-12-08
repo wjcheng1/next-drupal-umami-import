@@ -49,7 +49,7 @@ if (process.env.PANTHEON_ENVIRONMENT_URL) {
 		process.env.IS_LIVE_ENVIRONMENT = true;
 	}
 }
-
+console.log("live?", process.env.IS_LIVE_ENVIRONMENT);
 // expose FRONTEND_URL to properly set hrefLang
 // and remove trailing slash
 process.env.NEXT_PUBLIC_FRONTEND_URL = process.env.FRONTEND_URL
