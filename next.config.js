@@ -51,6 +51,7 @@ if (process.env.PANTHEON_ENVIRONMENT_URL) {
 }
 console.log("live?", process.env.IS_LIVE_ENVIRONMENT);
 console.log("CPU_COUNT?", process.env.CPU_COUNT);
+console.log("ENVVAR2?", process.env.ENVVAR2);
 // expose FRONTEND_URL to properly set hrefLang
 // and remove trailing slash
 process.env.NEXT_PUBLIC_FRONTEND_URL = process.env.FRONTEND_URL
